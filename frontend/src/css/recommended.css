@@ -1,0 +1,120 @@
+/* recommended.css */
+
+.recom-container {
+  width: 100%;
+}
+
+.recom-components {
+}
+
+.recom-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  border-bottom: 1px solid gray;
+  height: 62px;
+}
+.recom-up-science {
+  flex: 4;
+  display: flex;
+  justify-content: center;
+  margin-left: 10rem;
+}
+.sign-1 {
+  display: flex;
+  gap: 15px;
+  margin-right: 10px;
+}
+.button-g,
+.button-i {
+  padding: 8px 13px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(72, 34, 102);
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.button-g:hover,
+.button-i:hover {
+  background-color: white;
+  color: black;
+}
+
+.recom-up p {
+  color: black;
+  margin: 0;
+}
+
+.recom-main {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.recom-left {
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.recom-left img {
+  max-width: 18rem;
+  border-radius: 9px;
+}
+
+.recom-left p {
+  color: rgb(93, 91, 91);
+  margin: 5px 0;
+}
+
+.famous-quote {
+  width: 17rem;
+  margin-top: 30px;
+  border-left: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 1rem;
+}
+
+.albert {
+  font-family: "Francois One", sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 27px;
+  margin: 0;
+}
+
+.button {
+  margin-top: 10px;
+}
+
+.science-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.science-button:hover {
+  background-color: orange;
+}
+
+.recom-right {
+  border-top: 1px solid black;
+  margin-right: 20px;
+}
+
+.recom-right h1 {
+  font-size: 25px;
+  margin-top: 10px;
+}

@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.firstpage-container {
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.main-page {
+}
+
+.main-page-components {
+  padding: 10rem;
+  display: flex;
+  gap: 24rem;
+}
+
+.main-left {
+  display: flex;
+  flex-direction: column;
+  width: 29rem;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.5rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+.button-1 {
+  background-color: rgb(121, 121, 238);
+  padding: 11px 24px;
+  border: none;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-family: "Rubik", sans-serif;
+}
+.button-2 {
+  background-color: rgb(121, 121, 238);
+  padding: 11px 24px;
+  border: none;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-family: "Rubik", sans-serif;
+}
+
+.text-left {
+  color: gray;
+}

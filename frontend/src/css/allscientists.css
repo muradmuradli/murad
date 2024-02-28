@@ -1,0 +1,44 @@
+.science-container {
+  padding: 3rem;
+  width: 50px;
+}
+
+.science-up-components {
+  display: flex;
+  gap: 20px;
+}
+
+.science-up-components input {
+  padding: 1px;
+  border: none;
+  font-size: 18px;
+  color: #333;
+  background-color: transparent;
+  outline: none;
+  transition: border-color 0.5s ease;
+  margin-bottom: 20px;
+}
+
+.science-up-components input::placeholder {
+  color: #aaa;
+}
+
+.science-up-components input:focus {
+  border-color: #8d1c0f;
+}
+
+.scientists {
+  display: flex;
+  gap: 7rem;
+}
+
+.science-main-container {
+}
+.science-main-components {
+  display: flex;
+  gap: 20px;
+}
+.science-main-components img {
+  max-width: 15rem;
+  border-radius: 5%;
+}
